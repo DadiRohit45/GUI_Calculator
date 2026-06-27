@@ -1,6 +1,7 @@
 from tkinter import *
 from simpleeval import simple_eval
 t=Tk()
+t.resizable(False,False)
 t.title("calculator")
 E1=Entry(t,bg="black",fg="white",width=22,font=("Arial",17),bd=12)
 E1.grid(row=0,column=0,columnspan=4)
