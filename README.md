@@ -21,12 +21,15 @@ A collection of mini projects built using **Python and Tkinter** — Python's bu
 
 ---
 
+<!-- PROJECTS_START -->
 ## 🗂️ Projects
 
 | Project | Description | Key Libraries |
 |---|---|---|
-| [🧮 Tkinter Calculator](./GUI_calculator/README.md) | A dark-themed desktop calculator with safe expression evaluation and chained calculation support | `tkinter`, `simpleeval` |
-| [🧒 Smart Kids Learning Games](./kids_games/README.md) | An interactive educational quiz app for kids covering Math, GK, and Spelling with score tracking | `tkinter`, `simpleeval`, `random` |
+| [🧮 GUI Calculator](./GUI_calculator/README.md) | A dark-themed desktop calculator with safe expression evaluation and chained calculation support | `tkinter`, `simpleeval` |
+| [🧒 Kids Games](./kids_games/README.md) | An interactive educational quiz app for kids covering Math, GK, and Spelling with score tracking | `tkinter`, `simpleeval`, `random` |
+
+<!-- PROJECTS_END -->
 
 ---
 
@@ -47,9 +50,9 @@ pip install simpleeval
 
 1. Navigate into the project folder:
    ```bash
-   cd tkinter-calculator
+   cd GUI_calculator
    # or
-   cd smart-kids-learning-games
+   cd kids_games
    ```
 
 2. Run the Python file:
@@ -68,11 +71,11 @@ tkinter-projects/
 │
 ├── README.md                          ← You are here (parent README)
 │
-├── tkinter-calculator/
+├── GUI_calculator/
 │   ├── calculator.py                  ← Calculator source code
 │   └── README.md                      ← Calculator documentation
 │
-└── smart-kids-learning-games/
+└── kids_games/
     ├── kids_game.py                   ← Kids game source code
     └── README.md                      ← Kids game documentation
 ```
@@ -81,7 +84,7 @@ tkinter-projects/
 
 ## 👤 Author
 
-- **Dadi Rohit** — [DadiRohit45](https://github.com/your-username)
+- **Dadi Rohit** — [DadiRohit45](https://github.com/DadiRohit45)
 
 ---
 
