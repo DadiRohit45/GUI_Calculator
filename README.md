@@ -33,16 +33,24 @@ A collection of mini projects built using **Python and Tkinter** — Python's bu
 
 ---
 
+<!-- REQUIREMENTS_START -->
 ## 🛠️ Requirements
 
 - Python 3.6+
-- `tkinter` — built into Python, no install needed
-- [`simpleeval`](https://pypi.org/project/simpleeval/) — used by both projects
 
-Install all dependencies at once:
+**Built-in (no install needed):**
+- `tkinter` — GUI library *(built into Python)*
+- `random` — random number generator *(built into Python)*
+
+**Install via pip:**
+- [`simpleeval`](https://pypi.org/project/simpleeval/) — safe math expression evaluator
+
+Install all at once:
 ```bash
 pip install simpleeval
 ```
+
+<!-- REQUIREMENTS_END -->
 
 ---
 
@@ -64,6 +72,7 @@ pip install simpleeval
 
 ---
 
+<!-- STRUCTURE_START -->
 ## 📁 Repository Structure
 
 ```
@@ -72,13 +81,15 @@ tkinter-projects/
 ├── README.md                          ← You are here (parent README)
 │
 ├── GUI_calculator/
-│   ├── calculator.py                  ← Calculator source code
-│   └── README.md                      ← Calculator documentation
+│   ├── calculator.py                  ← GUI Calculator source code
+│   └── README.md                      ← GUI Calculator documentation
 │
 └── kids_games/
-    ├── kids_game.py                   ← Kids game source code
-    └── README.md                      ← Kids game documentation
+    ├── kids_game.py                   ← Kids Games source code
+    └── README.md                      ← Kids Games documentation
 ```
+
+<!-- STRUCTURE_END -->
 
 ---
 
